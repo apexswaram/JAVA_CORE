@@ -89,6 +89,7 @@
 <img width="1254" height="522" alt="image" src="https://github.com/user-attachments/assets/86db0940-901c-4c33-aed5-571d4c0925cc" />
 
 
+<img width="970" height="581" alt="image" src="https://github.com/user-attachments/assets/f0ea8969-9e06-49ac-8e8f-055e8a2565ad" />
 
 ---
 
@@ -135,15 +136,6 @@ class JSFDay1 {
 
  This is why Java is **platform independent**
 
-### Explanation:
 
-* `class` → Blueprint
-* `JSFDay1` → Class name (same as file name)
-* `main()` → Entry point of program
-* `public` → Accessible everywhere
-* `static` → No object required
-* `void` → No return value
-* `String[] args` → Command line arguments
-* `System.out.println()` → Print output
 
 ---
