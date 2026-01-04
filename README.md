@@ -57,6 +57,8 @@
 
 ### JDK vs JRE vs JVM
 
+<img width="647" height="403" alt="image" src="https://github.com/user-attachments/assets/fd49de29-ecd2-4d56-bc5c-d5beadd95700" />
+
 ####  JDK (Java Development Kit)
 
 * Used by developers
