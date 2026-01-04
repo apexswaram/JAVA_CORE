@@ -85,6 +85,8 @@
   * Memory management
   * Garbage Collection
   * Security
+    
+<img width="1254" height="522" alt="image" src="https://github.com/user-attachments/assets/86db0940-901c-4c33-aed5-571d4c0925cc" />
 
 
 
