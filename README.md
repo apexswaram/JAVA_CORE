@@ -84,17 +84,7 @@
   * Garbage Collection
   * Security
 
----
 
-##  Java Program Execution Flow
-
-1. Write code → `JSFDay1.java`
-2. Compile → `javac JSFDay1.java`
-3. Bytecode generated → `Hello.class`
-4. JVM loads bytecode
-5. JVM executes program
-
- This is why Java is **platform independent**
 
 ---
 
@@ -125,6 +115,18 @@ class JSFDay1 {
     }
 }
 ```
+
+---
+
+##  Java Program Execution Flow
+
+1. Write code → `JSFDay1.java`
+2. Compile → `javac JSFDay1.java`
+3. Bytecode generated → `Hello.class`
+4. JVM loads bytecode
+5. JVM executes program
+
+ This is why Java is **platform independent**
 
 ### Explanation:
 
