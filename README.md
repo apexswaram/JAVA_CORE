@@ -120,11 +120,14 @@ class JSFDay1 {
 
 ##  Java Program Execution Flow
 
+
 1. Write code → `JSFDay1.java`
 2. Compile → `javac JSFDay1.java`
 3. Bytecode generated → `Hello.class`
 4. JVM loads bytecode
 5. JVM executes program
+
+<img width="654" height="585" alt="image" src="https://github.com/user-attachments/assets/5bb2b22a-db15-4875-ac74-51a9beec6a97" />
 
  This is why Java is **platform independent**
 
