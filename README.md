@@ -139,3 +139,7 @@ class JSFDay1 {
 
 
 ---
+
+
+<img width="789" height="585" alt="image" src="https://github.com/user-attachments/assets/c6776dc2-cdbe-497e-b6d8-2eb6af11fa4d" />
+
