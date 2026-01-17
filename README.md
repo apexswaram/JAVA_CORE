@@ -156,4 +156,5 @@ class JSFDay1 {
 <img width="879" height="577" alt="image" src="https://github.com/user-attachments/assets/eeefff43-01a3-45fe-b12a-15aee5cb05c0" />
 
 <img width="854" height="546" alt="image" src="https://github.com/user-attachments/assets/400f6502-7dc4-4cee-a1b7-ee4c12b6a811" />
+<img width="928" height="601" alt="image" src="https://github.com/user-attachments/assets/8ba6b6e2-7f8e-4fb7-92bc-a4c7d6f3324d" />
 
