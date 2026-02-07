@@ -170,3 +170,7 @@ class JSFDay1 {
 
 
 <img width="1181" height="570" alt="image" src="https://github.com/user-attachments/assets/09860931-82d3-4091-9867-b76ec79fc325" />
+
+# OOP's
+
+<img width="1208" height="614" alt="image" src="https://github.com/user-attachments/assets/fed3aa97-e840-4f0f-be11-4006c1727377" />
