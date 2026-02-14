@@ -1,4 +1,4 @@
-# JAVA_CORE
+<img width="946" height="619" alt="image" src="https://github.com/user-attachments/assets/351fc2f1-7a35-4f09-87d5-30039532304a" /># JAVA_CORE
 
 <img width="948" height="622" alt="image" src="https://github.com/user-attachments/assets/91a06e3e-5763-4c62-8a31-dafde715af63" />
 
@@ -58,4 +58,5 @@
 <img width="1173" height="735" alt="image" src="https://github.com/user-attachments/assets/bb04a39a-b41f-4543-80b2-06604bb83b2b" />
 
 <img width="1031" height="310" alt="image" src="https://github.com/user-attachments/assets/51f401e1-5e34-4ceb-b6ce-880a35f72048" />
+<img width="946" height="619" alt="image" src="https://github.com/user-attachments/assets/351fc2f1-7a35-4f09-87d5-30039532304a" />
 
