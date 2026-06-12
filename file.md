@@ -539,4 +539,662 @@ Topics Covered:
 - iframe
 - Meta Tags
 
-End of Day 2 Notes.
+
+Save as:
+
+```text
+day2.html
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Advanced HTML Day 2">
+
+    <meta
+        name="keywords"
+        content="HTML,CSS,JavaScript">
+
+    <meta
+        name="author"
+        content="Maheswaram">
+
+    <title>Advanced HTML - Day 2</title>
+
+</head>
+
+<body>
+
+    <!-- =============================== -->
+    <!-- HEADER -->
+    <!-- =============================== -->
+
+    <header>
+
+        <h1 align="center">
+            HTML Advanced Concepts
+        </h1>
+
+        <p align="center">
+            Complete Day 2 Demonstration File
+        </p>
+
+    </header>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- ATTRIBUTES -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>1. Global Attributes</h2>
+
+        <p title="Tooltip Example">
+            Hover over me
+        </p>
+
+        <p contenteditable="true">
+            Edit this content
+        </p>
+
+        <p hidden>
+            Hidden Paragraph
+        </p>
+
+        <img
+            src="https://picsum.photos/150"
+            draggable="true">
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- HYPERLINKS -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>2. Hyperlinks</h2>
+
+        <a href="https://www.google.com">
+            Open Google
+        </a>
+
+        <br><br>
+
+        <a
+            href="https://www.flipkart.com"
+            target="_blank">
+
+            Open Flipkart New Tab
+
+        </a>
+
+        <br><br>
+
+        <a href="mailto:test@gmail.com">
+
+            Send Email
+
+        </a>
+
+        <br><br>
+
+        <a href="tel:9876543210">
+
+            Call Now
+
+        </a>
+
+        <br><br>
+
+        <a href="resume.pdf" download>
+
+            Download Resume
+
+        </a>
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- BOOKMARK LINKS -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>3. Bookmark Navigation</h2>
+
+        <a href="#contact">
+
+            Go To Contact Section
+
+        </a>
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- ABSOLUTE PATH -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>4. Absolute Path Image</h2>
+
+        <img
+            src="https://picsum.photos/200"
+            width="200"
+            height="200">
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- RELATIVE PATH -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>5. Relative Path Example</h2>
+
+        <img
+            src="images/profile.jpg"
+            alt="Local Image"
+            width="200">
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- IMAGE ATTRIBUTES -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>6. Image Attributes</h2>
+
+        <img
+            src="https://picsum.photos/250"
+            alt="Sample Image"
+            title="Profile Picture"
+            width="250"
+            height="250">
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- IMAGE HYPERLINK -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>7. Image Hyperlink</h2>
+
+        <a href="https://www.google.com">
+
+            <img
+                src="https://picsum.photos/300"
+                width="300">
+
+        </a>
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- TABLE BASIC -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>8. Student Table</h2>
+
+        <table border="1">
+
+            <caption>
+
+                Student Details
+
+            </caption>
+
+            <thead>
+
+                <tr>
+
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Course</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>101</td>
+                    <td>Rahul</td>
+                    <td>Java</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>102</td>
+                    <td>Kiran</td>
+                    <td>Python</td>
+
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+
+                <tr>
+
+                    <td colspan="3">
+
+                        Total Students : 2
+
+                    </td>
+
+                </tr>
+
+            </tfoot>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- ROWSPAN -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>9. Rowspan Example</h2>
+
+        <table border="1">
+
+            <tr>
+
+                <th>Name</th>
+                <th>Subject</th>
+
+            </tr>
+
+            <tr>
+
+                <td rowspan="2">
+
+                    Rahul
+
+                </td>
+
+                <td>Java</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Python</td>
+
+            </tr>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- COLSPAN -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>10. Colspan Example</h2>
+
+        <table border="1">
+
+            <tr>
+
+                <th colspan="2">
+
+                    Student Information
+
+                </th>
+
+            </tr>
+
+            <tr>
+
+                <td>Name</td>
+                <td>Rahul</td>
+
+            </tr>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- ROWSPAN + COLSPAN -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>11. Rowspan + Colspan</h2>
+
+        <table border="1">
+
+            <tr>
+
+                <th rowspan="2">
+
+                    Student
+
+                </th>
+
+                <th colspan="2">
+
+                    Marks
+
+                </th>
+
+            </tr>
+
+            <tr>
+
+                <th>HTML</th>
+                <th>CSS</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Rahul</td>
+                <td>95</td>
+                <td>90</td>
+
+            </tr>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- HTML ENTITIES -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>12. HTML Entities</h2>
+
+        <p>Less Than : &lt;</p>
+
+        <p>Greater Than : &gt;</p>
+
+        <p>Copyright : &copy;</p>
+
+        <p>Registered : &reg;</p>
+
+        <p>Rupee : &#8377;</p>
+
+        <p>Heart : &#10084;</p>
+
+        <p>Hello&nbsp;&nbsp;&nbsp;World</p>
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- AUDIO -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>13. Audio Tag</h2>
+
+        <audio controls>
+
+            <source
+                src="sample.mp3"
+                type="audio/mp3">
+
+        </audio>
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- VIDEO -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>14. Video Tag</h2>
+
+        <video
+            width="400"
+            controls>
+
+            <source
+                src="sample.mp4"
+                type="video/mp4">
+
+        </video>
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- IFRAME -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>15. YouTube iframe</h2>
+
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+
+        </iframe>
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- GOOGLE MAP -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>16. Google Maps iframe</h2>
+
+        <iframe
+            src="https://maps.google.com/maps?q=hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            width="500"
+            height="300">
+
+        </iframe>
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- SEMANTIC HTML -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>17. Semantic HTML Layout</h2>
+
+        <header>
+
+            <h3>Website Header</h3>
+
+        </header>
+
+        <nav>
+
+            <a href="#">Home</a> |
+
+            <a href="#">About</a> |
+
+            <a href="#">Courses</a> |
+
+            <a href="#">Contact</a>
+
+        </nav>
+
+        <main>
+
+            <section>
+
+                <h3>Frontend Course</h3>
+
+                <p>
+                    HTML CSS JavaScript
+                </p>
+
+            </section>
+
+            <article>
+
+                <h3>Blog Article</h3>
+
+                <p>
+                    This is article content.
+                </p>
+
+            </article>
+
+            <aside>
+
+                Latest Updates Section
+
+            </aside>
+
+        </main>
+
+        <footer>
+
+            <p>
+
+                Copyright 2026
+
+            </p>
+
+        </footer>
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- MINI PROJECT -->
+    <!-- =============================== -->
+
+    <section>
+
+        <h2>18. College Timetable</h2>
+
+        <table border="1">
+
+            <tr>
+
+                <th>Day</th>
+                <th>9-10</th>
+                <th>10-11</th>
+                <th>11-12</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Monday</td>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>JavaScript</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Tuesday</td>
+                <td>Java</td>
+                <td>SQL</td>
+                <td>Spring</td>
+
+            </tr>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- CONTACT -->
+    <!-- =============================== -->
+
+    <section id="contact">
+
+        <h2>Contact Section</h2>
+
+        <p>Email : support@gmail.com</p>
+
+        <p>Phone : 9876543210</p>
+
+    </section>
+
+    <hr>
+
+    <h2 align="center">
+
+        Day 2 Advanced HTML Completed
+
+    </h2>
+
+</body>
+
+</html>
+```
+
