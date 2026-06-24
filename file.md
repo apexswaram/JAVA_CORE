@@ -969,3 +969,325 @@ One Row = 12 Columns
 </body>
 </html>
 ```
+---
+
+# Assignment 1: Responsive Restaurant Website
+
+## Objective
+
+Design a modern restaurant website.
+
+### Sections
+
+#### Navbar
+
+* Logo
+* Home
+* Menu
+* About
+* Contact
+
+#### Hero Section
+
+* Restaurant Name
+* Tagline
+* Order Now Button
+
+#### Popular Dishes
+
+Minimum 6 Food Cards
+
+Each Card Contains:
+
+* Food Image
+* Food Name
+* Price
+* Order Button
+
+#### About Restaurant
+
+* Restaurant Description
+* Restaurant Image
+
+#### Contact Section
+
+* Address
+* Phone Number
+* Email
+
+#### Footer
+
+* Social Media Icons
+* Copyright
+
+---
+
+## Responsive Requirement
+
+```html
+col-12 col-md-6 col-lg-4
+```
+
+### Mobile
+
+```text
+Food 1
+
+Food 2
+
+Food 3
+
+Food 4
+
+Food 5
+
+Food 6
+```
+
+### Tablet
+
+```text
+Food 1     Food 2
+
+Food 3     Food 4
+
+Food 5     Food 6
+```
+
+### Desktop
+
+```text
+Food 1    Food 2    Food 3
+
+Food 4    Food 5    Food 6
+```
+
+---
+
+# Assignment 2: Responsive E-Commerce Product Page
+
+## Objective
+
+Build an Amazon/Flipkart-style product showcase page.
+
+### Sections
+
+#### Navbar
+
+* Logo
+* Home
+* Products
+* Cart
+* Contact
+
+#### Banner
+
+* Promotional Banner
+
+#### Product Section
+
+Minimum 8 Products
+
+Each Product Card
+
+* Product Image
+* Product Name
+* Price
+* Buy Now Button
+
+#### Footer
+
+* Quick Links
+* Contact Information
+
+---
+
+## Output Structure
+
+### Mobile
+
+```text
+----------------
+Navbar
+----------------
+
+Banner
+
+Product 1
+
+Product 2
+
+Product 3
+
+Product 4
+
+Product 5
+
+Product 6
+
+Product 7
+
+Product 8
+
+Footer
+```
+
+---
+
+### Tablet
+
+```text
+Product 1   Product 2
+
+Product 3   Product 4
+
+Product 5   Product 6
+
+Product 7   Product 8
+```
+
+---
+
+### Desktop
+
+```text
+Product1 Product2 Product3 Product4
+
+Product5 Product6 Product7 Product8
+```
+
+Use
+
+```html
+col-12 col-sm-6 col-lg-3
+```
+
+---
+
+# Assignment 3: Responsive College Website
+
+## Objective
+
+Build a professional college landing page.
+
+### Sections
+
+#### Header
+
+* College Logo
+* College Name
+
+#### Navbar
+
+* Home
+* About
+* Courses
+* Placements
+* Contact
+
+#### Hero Section
+
+* College Banner
+* Admission Open Button
+
+#### Courses Section
+
+Minimum 6 Courses
+
+* CSE
+* ECE
+* EEE
+* Civil
+* Mechanical
+* AI & DS
+
+#### Placement Statistics
+
+Display
+
+* Students Placed
+* Highest Package
+* Companies Visited
+
+#### Footer
+
+* Address
+* Phone
+* Email
+
+---
+
+## Output Structure
+
+### Desktop
+
+```text
+----------------------------------
+Header
+----------------------------------
+
+Navbar
+
+----------------------------------
+Hero Banner
+----------------------------------
+
+Course1  Course2  Course3
+
+Course4  Course5  Course6
+
+----------------------------------
+Placement Statistics
+----------------------------------
+
+Students   Package   Companies
+
+----------------------------------
+Footer
+----------------------------------
+```
+
+---
+
+### Mobile
+
+```text
+Header
+
+Navbar
+
+Hero Banner
+
+Course1
+
+Course2
+
+Course3
+
+Course4
+
+Course5
+
+Course6
+
+Placement Statistics
+
+Footer
+```
+
+Use
+
+```html
+col-12 col-md-6 col-lg-4
+```
+---
+```html
+col-12
+col-sm-6
+col-md-6
+col-lg-4
+col-xl-3
+```
+
+
+
