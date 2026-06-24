@@ -575,4 +575,397 @@ TV      = 4 Items
 ```html
 col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3
 ```
+# Full Code 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Responsive Design using Bootstrap 12 Grid System</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <style>
+        *{
+            background-color: beige;
+        }
+
+        .green{
+            background-color: green;
+            border-radius: 7px;
+            border-style: none;
+            padding:10px;
+            color:white;
+            text-align:center;
+            min-height:60px;
+        }
+
+        .red{
+            background-color: red;
+            border-radius: 7px;
+            border-style: none;
+            padding:10px;
+            color:white;
+            text-align:center;
+            min-height:60px;
+        }
+
+        .container1{
+            background-color: rgb(202, 234, 245);
+            padding-top:10px;
+            padding-bottom:10px;
+        }
+
+        h1,h2,h3,h4,p{
+            background:transparent;
+        }
+
+        .note{
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            margin:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="note">
+
+        <h1>Responsive Design using Bootstrap 12 Grid System</h1>
+
+        <hr>
+
+        <h3>Bootstrap Grid System</h3>
+
+        <p>
+            Bootstrap divides every row into 12 equal columns.
+        </p>
+
+        <pre>
+|1|2|3|4|5|6|7|8|9|10|11|12|
+        </pre>
+
+        <hr>
+
+        <h3>Bootstrap Breakpoints</h3>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Class</th>
+                    <th>Screen Size</th>
+                    <th>Device</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>col</td>
+                    <td>All Devices</td>
+                    <td>Mobile</td>
+                </tr>
+
+                <tr>
+                    <td>col-sm</td>
+                    <td>&gt;=576px</td>
+                    <td>Tablet</td>
+                </tr>
+
+                <tr>
+                    <td>col-md</td>
+                    <td>&gt;=768px</td>
+                    <td>Laptop</td>
+                </tr>
+
+                <tr>
+                    <td>col-lg</td>
+                    <td>&gt;=992px</td>
+                    <td>Desktop</td>
+                </tr>
+
+                <tr>
+                    <td>col-xl</td>
+                    <td>&gt;=1200px</td>
+                    <td>TV</td>
+                </tr>
+
+                <tr>
+                    <td>col-xxl</td>
+                    <td>&gt;=1400px</td>
+                    <td>Large TV</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <h3>Column Widths</h3>
+
+        <pre>
+col-12 = 100%
+col-6  = 50%
+col-4  = 33.33%
+col-3  = 25%
+col-2  = 16.66%
+col-1  = 8.33%
+        </pre>
+
+        <hr>
+
+        <h3>Example 1 : col-6 + col-6</h3>
+
+        <div class="row container1">
+
+            <div class="col-6 green">
+                Left
+            </div>
+
+            <div class="col-6 red">
+                Right
+            </div>
+
+        </div>
+
+        <p>
+            Formula : 6 + 6 = 12
+        </p>
+
+        <hr>
+
+        <h3>Example 2 : col-4 + col-4 + col-4</h3>
+
+        <div class="row container1">
+
+            <div class="col-4 green">
+                Container 1
+            </div>
+
+            <div class="col-4 red">
+                Container 2
+            </div>
+
+            <div class="col-4 green">
+                Container 3
+            </div>
+
+        </div>
+
+        <p>
+            Formula : 4 + 4 + 4 = 12
+        </p>
+
+        <hr>
+
+        <h3>Example 3 : col-3 + col-3 + col-3 + col-3</h3>
+
+        <div class="row container1">
+
+            <div class="col-3 green">
+                Container 1
+            </div>
+
+            <div class="col-3 red">
+                Container 2
+            </div>
+
+            <div class="col-3 green">
+                Container 3
+            </div>
+
+            <div class="col-3 red">
+                Container 4
+            </div>
+
+        </div>
+
+        <p>
+            Formula : 3 + 3 + 3 + 3 = 12
+        </p>
+
+        <hr>
+
+        <h3>Example 4 : col-5 + col-5 + col-2</h3>
+
+        <div class="row container1">
+
+            <div class="col-5 green">
+                Container 1
+            </div>
+
+            <div class="col-5 red">
+                Container 2
+            </div>
+
+            <div class="col-2 green">
+                Container 3
+            </div>
+
+        </div>
+
+        <p>
+            Formula : 5 + 5 + 2 = 12
+        </p>
+
+        <hr>
+
+        <h3>Example 5 : col-7 + col-3 + col-2</h3>
+
+        <div class="row container1">
+
+            <div class="col-7 green">
+                Container 1
+            </div>
+
+            <div class="col-3 red">
+                Container 2
+            </div>
+
+            <div class="col-2 green">
+                Container 3
+            </div>
+
+        </div>
+
+        <p>
+            Formula : 7 + 3 + 2 = 12
+        </p>
+
+        <hr>
+
+        <h3>Example 6 : 12 Individual Columns</h3>
+
+        <div class="row container1">
+
+            <div class="col-1 green">1</div>
+            <div class="col-1 red">2</div>
+            <div class="col-1 green">3</div>
+            <div class="col-1 red">4</div>
+            <div class="col-1 green">5</div>
+            <div class="col-1 red">6</div>
+            <div class="col-1 green">7</div>
+            <div class="col-1 red">8</div>
+            <div class="col-1 green">9</div>
+            <div class="col-1 red">10</div>
+            <div class="col-1 green">11</div>
+            <div class="col-1 red">12</div>
+
+        </div>
+
+        <hr>
+
+        <h3>Responsive Example 1</h3>
+
+        <p>
+            Mobile = col-6
+            <br>
+            Laptop = col-md-4
+        </p>
+
+        <div class="row">
+
+            <div class="col-6 col-md-4 red">
+                Red
+            </div>
+
+            <div class="col-6 col-md-4 green">
+                Green
+            </div>
+
+        </div>
+
+        <hr>
+
+        <h3>Responsive Example 2</h3>
+
+        <p>
+            Mobile = Full Width
+            <br>
+            Laptop = Half Width
+        </p>
+
+        <div class="row">
+
+            <div class="col-12 col-md-6 red">
+                Red Section
+            </div>
+
+            <div class="col-12 col-md-6 green">
+                Green Section
+            </div>
+
+        </div>
+
+        <hr>
+
+        <h3>Responsive Example 3</h3>
+
+        <div class="row">
+
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 col-xxl-2 red">
+                Responsive Box
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 col-xxl-2 green">
+                Responsive Box
+            </div>
+
+        </div>
+
+        <br>
+
+        <pre>
+col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3
+
+Mobile   = 1 Item
+
+Tablet   = 2 Items
+
+Laptop   = 2 Items
+
+Desktop  = 3 Items
+
+TV       = 4 Items
+        </pre>
+
+        <hr>
+
+        <h3>Important Points</h3>
+
+        <pre>
+Container
+    ↓
+Row
+    ↓
+Column
+
+One Row = 12 Columns
+
+6 + 6 = 12
+
+4 + 4 + 4 = 12
+
+3 + 3 + 3 + 3 = 12
+
+5 + 5 + 2 = 12
+
+7 + 3 + 2 = 12
+        </pre>
+
+    </div>
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+```
